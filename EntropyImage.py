@@ -15,7 +15,7 @@ def entropy(signal):
         return ent
 
 
-colorIm=Image.open("C:\\Users\\Tom\\Desktop\\image.jpg")  # Must use double "\" for each \ in file path
+colorIm=Image.open("C:\\Users\\Tom\\Desktop\\image.jpg")  # Must use double "\" for each \ in file path in Windows
 greyIm=colorIm.convert('L')
 colorIm=np.array(colorIm)
 greyIm=np.array(greyIm)
