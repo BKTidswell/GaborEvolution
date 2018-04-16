@@ -1,9 +1,9 @@
 #install.packages('jpeg')
 library(jpeg)
 
-# all images uploaded must have equal x,y dimensions that are multiples of fov.region
+# all images uploaded must have equal x,y dimensions that are multiples of fov.region. All images must be jpg
 
-doggy <- 255*readJPEG('doggy.jpg')
+doggy <- 255*readJPEG('doggy.jpg') 
 placeholder <- 255*readJPEG('Placeholder.jpg')
 nature <- 255*readJPEG('nature.jpg')
 doggy2 <- 255*readJPEG('doggy2.jpg')
